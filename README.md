@@ -1,5 +1,8 @@
 # learn-reactive
 
+## Coroutine:
+* https://stackoverflow.com/questions/553704/what-is-a-coroutine
+* https://en.wikipedia.org/wiki/Coroutine
 ## Tips
 * Functional programming and Reactive Programming are different things.
 * https://www.quora.com/What-is-difference-between-Functional-Reactive-Programming-Functional-Programming-and-Reactive-Programming
