@@ -9,3 +9,7 @@
 * Closure is functional: https://softwareengineering.stackexchange.com/questions/235175/are-closures-considered-impure-functional-style
 ## Reactive streams
 * https://blog.redelastic.com/a-journey-into-reactive-streams-5ee2a9cd7e29
+
+
+## Related Topics:
+* https://arild.github.io/csp-presentation/
