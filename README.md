@@ -11,7 +11,8 @@
 * https://blog.redelastic.com/a-journey-into-reactive-streams-5ee2a9cd7e29
 
 ## Monad
-*  https://bartoszmilewski.com/
+* https://www.quora.com/Is-a-monad-really-a-monoid-in-the-category-of-endofunctors
+* https://bartoszmilewski.com/
 * http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html
 
 ## Related Topics:
