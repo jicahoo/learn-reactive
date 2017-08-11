@@ -10,6 +10,9 @@
 ## Reactive streams
 * https://blog.redelastic.com/a-journey-into-reactive-streams-5ee2a9cd7e29
 
+## Monad
+*  https://bartoszmilewski.com/
+* http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html
 
 ## Related Topics:
 * https://arild.github.io/csp-presentation/
