@@ -17,8 +17,8 @@
 * https://en.wikipedia.org/wiki/Natural_transformation
 * https://en.wikipedia.org/wiki/Category_(mathematics)
 * A monoid in the category of endofunctors.
- * 自函子构成的范畴，对象是自函子，态射是自然变换.
- * 这个范畴满足一定的性质，能在这个范畴中，构造出幺半群，这个构造出的幺半群就是一个Monad，单子。
+  * 自函子构成的范畴，对象是自函子，态射是自然变换.
+  * 这个范畴满足一定的性质，能在这个范畴中，构造出幺半群，这个构造出的幺半群就是一个Monad，单子。
 
 ## Related Topics:
 * https://arild.github.io/csp-presentation/
