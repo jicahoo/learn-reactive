@@ -14,6 +14,10 @@
 * https://www.quora.com/Is-a-monad-really-a-monoid-in-the-category-of-endofunctors
 * https://bartoszmilewski.com/
 * http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html
+* https://en.wikipedia.org/wiki/Natural_transformation
+* https://en.wikipedia.org/wiki/Category_(mathematics)
+A monoid in the category of endofunctors.
+自函子构成的范畴，对象是自函子，态射是自然变换，
 
 ## Related Topics:
 * https://arild.github.io/csp-presentation/
