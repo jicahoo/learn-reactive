@@ -27,7 +27,7 @@
 
 * List是一种Monad:
   * https://en.wikipedia.org/wiki/List_(abstract_data_type)#The_list_monad 
-  * List可以看作幺半群，元素就是List, 零元就是空List, 二元运算是append. 
+  * List可以看作幺半群，元素就是List, 零元就是空List, 二元运算是append. 
 
 ## Related Topics:
 * https://arild.github.io/csp-presentation/
