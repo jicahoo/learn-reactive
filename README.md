@@ -28,6 +28,8 @@
 * List是一种Monad:
   * https://en.wikipedia.org/wiki/List_(abstract_data_type)#The_list_monad 
   * List可以看作幺半群，元素就是List, 零元就是空List, 二元运算是append. 
+## 高阶函数
+* 什么是高阶函数？函数式编程中，函数是一等公民，函数可以作为参数，也可以作为返回值。函数式编程，最重要的一个思想，就是大的函数由小的函数组合而来，以达到重用的目标，所以，而高阶函数，就是组合函数的一个手段，入参里有函数，返回是组合了入参函数的新函数。
 
 ## Related Topics:
 * https://arild.github.io/csp-presentation/
