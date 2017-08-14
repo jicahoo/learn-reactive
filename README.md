@@ -22,8 +22,8 @@
   * 这个范畴满足一定的性质，能在这个范畴中，构造出幺半群，这个构造出的幺半群就是一个Monad，单子。
   * 如何构造这个Monad, 选取一个自函子，
 * 在数学中和函数式编程语言中, monad的定义不完全一致？
- * 数学中，monad是自函子加上两个自然变换。https://en.wikipedia.org/wiki/Monad_(category_theory)
- * 编程语言中，monad是一个类型构造器加上两个操作:unit和bind.
+  * 数学中，monad是自函子加上两个自然变换。https://en.wikipedia.org/wiki/Monad_(category_theory)
+  * 编程语言中，monad是一个类型构造器加上两个操作:unit和bind.
 
 * List是一种Monad:
   * https://en.wikipedia.org/wiki/List_(abstract_data_type)#The_list_monad 
