@@ -23,8 +23,8 @@
   * 如何构造这个Monad, 选取一个自函子，
 * 在数学中和函数式编程语言中, monad的定义不完全一致？
   * 数学中，monad是自函子加上两个自然变换。https://en.wikipedia.org/wiki/Monad_(category_theory)
-  * 编程语言中，monad是一个类型构造器加上两个操作:unit和bind.
-
+  * 编程语言中，monad是一个类型构造器加上两个操作:unit和bind.
+* 二元运算的结合性有什么好处，可以任意组合，以便并行化：https://www.safaribooksonline.com/blog/2013/05/15/monoids-for-programmers-a-scala-example/
 * List是一种Monad:
   * https://en.wikipedia.org/wiki/List_(abstract_data_type)#The_list_monad 
   * List可以看作幺半群，元素就是List, 零元就是空List, 二元运算是append. 
