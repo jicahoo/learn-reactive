@@ -36,6 +36,7 @@
 ## Nil是个好东西
 * 有人说，罗马数没有零，所以，罗马人的数学没有阿拉伯人的好。因为零的引入，让某些计算简单很多。Nil的地位就像0,让你的程序更加流畅
 * Example: http://exercism.io/submissions/7ed7e1daec4a419fba6b6ac9c2425cdc (scala-grade-school)
+* Nulla 意大利语 代表0
 ## referential transparency
 ## Related Topics:
 * https://arild.github.io/csp-presentation/
