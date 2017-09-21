@@ -33,6 +33,10 @@
 ## 函数的组合
 * https://www.sumologic.com/blog/code/3-tips-for-writing-performant-scala/ .map().filter()... 这些函数目标并不是每调用一个函数就产生一个中间结果，如果是那样的话，肯定耗内存。他要做的是 f(g(x)) 变为 f*g (x)， 要的是f*g， 能够把函数组合起来，到最好需要计算的时候，直接调用这个被组合的函数。所谓，函数编程。
 
+## map和foldLeft
+* https://stackoverflow.com/questions/2293592/functional-programming-scala-map-and-fold-left
+* map: List(f(a1),f(a2),f(a3),...)
+* foldLeft: f(...(f(f(f(b0,a1), a2),a3)...,an)
 ## Nil是个好东西
 * Nil是List中的零元。Nil:::list == list:::Nil
 * 有人说，罗马数没有零，所以，罗马人的数学没有阿拉伯人的好。因为零的引入，让某些计算简单很多。Nil的地位就像0,让你的程序更加流畅
