@@ -45,3 +45,6 @@
 ## referential transparency
 ## Related Topics:
 * https://arild.github.io/csp-presentation/
+
+## Java CompletableFuture is Monad
+* https://zeroturnaround.com/rebellabs/monadic-futures-in-java8/
