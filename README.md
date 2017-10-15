@@ -46,5 +46,5 @@
 ## Related Topics:
 * https://arild.github.io/csp-presentation/
 
-## Java CompletableFuture is Monad
+## Java CompletableFuture, Promise  is Monad
 * https://zeroturnaround.com/rebellabs/monadic-futures-in-java8/
