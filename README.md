@@ -48,3 +48,4 @@
 
 ## Java CompletableFuture, Promise  is Monad
 * https://zeroturnaround.com/rebellabs/monadic-futures-in-java8/
+* http://codingjunkie.net/completable-futures-part1/
