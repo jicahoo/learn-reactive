@@ -54,3 +54,4 @@
 * http://www.ruanyifeng.com/blog/2017/02/fp-tutorial.html 有不少错误，注意甄别。
 * http://yinwang0.lofter.com/post/183ec2_b1afb9 王垠的对于面向对象和函数式编程的见解。
 * https://halfrost.github.io/2016/07/%E5%87%BD%E6%95%B0%E5%93%8D%E5%BA%94%E5%BC%8F%E7%BC%96%E7%A8%8B(FRP)%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0-%E6%94%BE%E5%BC%83-%E5%9F%BA%E7%A1%80%E6%A6%82%E5%BF%B5%E7%AF%87/ 函数式编程的一些基本思想
+* https://www.zhihu.com/question/20448295 如何学习范畴学
