@@ -49,3 +49,7 @@
 ## Java CompletableFuture, Promise  is Monad
 * https://zeroturnaround.com/rebellabs/monadic-futures-in-java8/
 * http://codingjunkie.net/completable-futures-part1/
+
+## Function Prgrammming
+* http://www.ruanyifeng.com/blog/2017/02/fp-tutorial.html 有不少错误，注意甄别。
+* http://yinwang0.lofter.com/post/183ec2_b1afb9 王垠的对于面向对象和函数式编程的见解。
