@@ -6,7 +6,8 @@
 ## Netty
 * 异步的事件驱动的网络应用框架
 * Netty的核心的编程模型，不仅可以用于网络通信框架，也可以用于应用程序的构建，例如Vert.x就是基于Netty Core的。
-* EventLoop Group包含几个EveentLoop。是个类似ExecutorService的事物。你可以向EventLoopGroup提交(event，Handler), Round-Robin分发给worker: EventLoop。每个EventLoop对应一个线程。无论是网络的select操作还是业务逻辑都是在这个EventLoop上执行的。业务逻辑怎么组织是通过PipeLine的一个链式结构。PileLine的每一节执行完成之后，会把后一节的逻辑提交到当前EventLoop的任务队列里，直到一环扣一环地完成整个Pipeline。这个设计和Akka的消息调度模式类似，当服务完某个Actor（信箱)之后，会继续把这个Actor在放入任务队列。一个Pipleine只能在同一个Eventloop上运行，不然的话，会有并发问题。Eventloop不可阻塞，阻塞操作需要专门的线程池，EventLoop线程的个数一般是n*Number(core).
+* EventLoop Group包含几个EveentLoop。是个类似ExecutorService的事物。你可以向EventLoopGroup提交(event，Handler), Round-Robin分发给worker: EventLoop。每个EventLoop对应一个线程。无论是网络的select操作还是业务逻辑都是在这个EventLoop上执行的。select操作是可以阻塞的和非阻塞的，如果EventLoop只干和网络IO相关的事情，应该可以阻塞调用；如果EventLoop还要干一些其他计算逻辑，需要非阻塞调用select, 没IO的时候，就可以很快地去处理其他任务。
+* 业务逻辑怎么组织是通过PipeLine的一个链式结构。PileLine的每一节执行完成之后，会把后一节的逻辑提交到当前EventLoop的任务队列里，直到一环扣一环地完成整个Pipeline。这个设计和Akka的消息调度模式类似，当服务完某个Actor（信箱)之后，会继续把这个Actor在放入任务队列。一个Pipleine只能在同一个Eventloop上运行，不然的话，会有并发问题。Eventloop不可阻塞，阻塞操作需要专门的线程池，EventLoop线程的个数一般是n*Number(core).
 
 
 ## Coroutine:
