@@ -1,5 +1,10 @@
 # learn-reactive
 
+## RxJava
+* 响应式编程来自于前端开发。前端要时刻保持页面的响应性，而不能阻塞。RxJava用于Android开发，Node.js也源于前端语言JavaScript
+
+
+
 ## Coroutine:
 * https://stackoverflow.com/questions/553704/what-is-a-coroutine
 * https://en.wikipedia.org/wiki/Coroutine
